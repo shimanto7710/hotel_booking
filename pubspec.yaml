@@ -1,0 +1,36 @@
+name: shimanto_s_application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.6
+  connectivity_plus: ^5.0.2
+  shared_preferences: ^2.2.2
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  pin_code_fields: ^8.0.1
+  country_pickers: ^2.0.0
+  sms_autofill: ^2.0.0
+  carousel_slider: ^4.0.0
+  smooth_page_indicator: ^1.0.0+2
+  intl: ^0.19.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Oxygen
+      fonts: 
+        - asset: assets/fonts/OxygenBold.ttf
+          weight: 700
+    - family: Jura
+      fonts: 
+        - asset: assets/fonts/JuraMedium.ttf
+          weight: 500
